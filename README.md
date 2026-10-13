@@ -25,3 +25,8 @@ These projects contain research and educational tools. Public examples include s
 ## Research interests
 
 Human movement biomechanics · Markerless motion capture · Musculoskeletal modeling · Data analysis · Machine learning for movement analysis
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/vitor-cimonetti/)
+- [vitor.cimonetti@uel.br](mailto:vitor.cimonetti@uel.br)
