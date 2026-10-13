@@ -18,7 +18,7 @@ My research focuses on markerless motion capture, ground reaction force predicti
 | [Gait analysis toolkit](https://github.com/cimonetti/cimonetti/tree/main/gait-analysis-toolkit) | Organize normalized gait cycles, inspect trials and export comparative kinematic figures | Python, MATLAB, NumPy, Matplotlib, Streamlit |
 | [Biomechanics signal processing](https://github.com/cimonetti/cimonetti/tree/main/biomechanics-signal-processing) | Spectral analysis, filtering, robust LOESS smoothing and geometric knee angles | Python, SciPy, Jupyter |
 
-These projects contain research and educational tools. Public examples use synthetic data. Project documentation records the implementation history, AI assistance and validation limits.
+These projects contain research and educational tools. Public examples use synthetic data. Each project README includes usage instructions, credits and testing limits.
 
 ## Research interests
 

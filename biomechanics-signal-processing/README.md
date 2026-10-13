@@ -1,6 +1,6 @@
 # Biomechanics signal processing
 
-Educational Python notebooks supplied by Vítor Cimonetti for examining biological and movement signals. This edition preserves the original file names, function names, comments, loops and notebook structure, with targeted corrections only.
+Educational Python notebooks by Vítor Cimonetti for examining biological and movement signals.
 
 ![Original-style filtering example using synthetic data](docs/filtering_demo.png)
 
@@ -33,6 +33,14 @@ Robust LOESS retains `family='symmetric'`, its span sweep and the original `np.d
 
 The knee angle is the included angle between hip-knee and ankle-knee vectors (180° at extension), not a Cardan angle. The cycle detector retains its 150-sample spacing threshold. Adapt this explicitly when sampling rate or cadence changes.
 
-## Corrections and validation
+## Credits and tests
 
-See [PROVENANCE.md](PROVENANCE.md), [VALIDATION.md](VALIDATION.md) and [the source diff](docs/correcoes.diff). Corrections were made with AI assistance; there is no consolidated module, vectorized rewrite or renamed variable scheme. Public examples are synthetic and do not establish clinical validity.
+Notebooks by Vítor Cimonetti. AI assistance was used for targeted corrections and portfolio preparation.
+
+Run the regression tests from `biomechanics-signal-processing/`:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+The tests cover spectral calculations, invalid filter cutoffs, geometric angles and cycle extrema. During portfolio preparation, the calculation and plotting cells were also executed with synthetic inputs. Interactive Jupyter behavior was not verified. These computational checks do not establish clinical validity.

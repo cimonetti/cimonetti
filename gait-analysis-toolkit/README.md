@@ -33,8 +33,16 @@ No filtering, interpolation, normalization or event detection is performed here.
 
 `matlab/processaMarchaControle.m` is the original workspace-dependent extraction script created by Prof. Felipe Arruda Moura. `matlab/importfile.m` retains the original MATLAB-generated import structure, including its fixed 181-column setting; identifying local paths and variable labels were replaced with generic examples. `matlab/demo.m` supplies filenames and cycle counts for the synthetic example. MATLAB execution has not been verified; Python checks do not establish MATLAB runtime compatibility.
 
-## Provenance and limits
+## Credits and tests
 
-The uploaded Python application was developed with AI assistance and supplied for portfolio preparation. Its core was preserved. Public packaging adds synthetic inputs, documentation and regression checks. The original visual code and supplied laboratory logo are retained. Core modules and the MATLAB extraction script are unchanged; application text referring to real participants is replaced by synthetic-demo descriptions. The script `matlab/processaMarchaControle.m` was authored by Prof. Felipe Arruda Moura. The Python application was adapted from this script with AI assistance. Confirm licensing terms for this script with its author before assigning a license.
+The Python application was adapted from Prof. Felipe Arruda Moura's MATLAB script with AI assistance.
 
-Clinical recordings, original reference arrays, participant filenames and institutional logos are excluded. The demonstration reference has no normative meaning. See [VALIDATION.md](VALIDATION.md).
+Run the tests from `gait-analysis-toolkit/`:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+The tests cover column mapping, cycle exclusion, means and sample standard deviations. During portfolio preparation, the command-line example generated figures and arrays, and the Streamlit interface passed an initialization check. File-upload and mouse interactions were not tested.
+
+Public examples use synthetic data and contain no participant recordings or original reference arrays. The demonstration reference has no normative or clinical meaning. For local data, adapt `config.json` and check that column, axis and sign conventions match your exports.
