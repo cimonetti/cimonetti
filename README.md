@@ -7,7 +7,8 @@ My research focuses on markerless motion capture, ground reaction force predicti
 ## Background
 
 - MSc in Physical Education, with a focus on biomechanics (UEM/UEL).
-- Postgraduate training in Data Science (Albert Einstein) and Neuroscience (UEL).
+- Postgraduate Specialization (lato sensu) in Applied Data Science in Healthcare, Albert Einstein Israelite Faculty of Health Sciences (2022).
+- Postgraduate Specialization (lato sensu) in Neuroscience, State University of Londrina (2025).
 - Member of the Applied Biomechanics Laboratory at UEL.
 - Experience with gait assessment, OptiTrack/Motive, Visual3D, force platforms and OpenSim.
 
