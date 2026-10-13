@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+outputs/
+private_data/
+dados_controle/
+dados_controle_adulto/
+*.mat
+*.c3d
+resultados.txt
+dados_suavizados_eixo_*.txt
